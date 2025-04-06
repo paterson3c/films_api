@@ -1,0 +1,10 @@
+SELECT orderid, customerid, status, totalamount FROM orders WHERE customerid = 31 LIMIT 10;
+
+SELECT customerid, balance, username, password FROM customers LIMIT 10;
+
+SELECT i.prod_id, i.stock, i.sales, p.price
+FROM inventory i
+INNER JOIN products p ON p.prod_id = i.prod_id
+ORDER BY i.prod_id
+LIMIT 10;
+
