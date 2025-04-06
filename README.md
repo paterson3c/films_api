@@ -4,7 +4,7 @@ Este proyecto proporciona una API REST desarrollada en Python para gestionar pel
 
 ## 🔧 Tecnologías
 - Python 3
-- Flask o Quart (según implementación)
+- Quart (según implementación)
 - SQLAlchemy
 - PostgreSQL
 - Docker
